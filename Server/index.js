@@ -35,8 +35,8 @@ http.createServer(function(req,res){
 	//Check if url is  NOT Favicon.ico
 	if(url != "/favicon.ico"){
 		//Get the time and temp
-		l_time = decodeURIComponent(req.url.split("/senzor?")[1].split("&")[0].split("=")[1]);
-		l_temp = decodeURIComponent(req.url.split("/senzor?")[1].split("&")[1].split("=")[1]);
+		l_time = decodeURIComponent(req.url.split("/WeatherStation/save?")[1].split("&")[1].split("=")[1]);
+		l_temp = decodeURIComponent(req.url.split("/WeatherStation/save?")[1].split("&")[0].split("=")[1]);
 		//For debug
 		console.log(l_time);
 		console.log(l_temp);
