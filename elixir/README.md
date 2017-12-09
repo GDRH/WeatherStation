@@ -1,1 +1,1 @@
-# WeatherStation Elixir version
+# WeatherStation Elixir version## Arduino Arduino version read analogic sezor values from A0 pin and send integer value to serial as line![Arduino serial](./assets/arduino_serial.png?raw=true "Arduino serial")
